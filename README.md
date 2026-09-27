@@ -17,8 +17,6 @@ I build practical data solutions that move teams from **legacy systems and fragm
 | Project | What it demonstrates |
 |---|---|
 | Healthcare SQL → Snowflake | Migration mapping, target modeling, reconciliation |
-| Insurance ETL Pipeline | Python ETL, data contracts, automated checks |
-| Real Estate Power BI | Star schema, DAX, KPI design |
 
 ### My engineering approach
 **Understand → Design → Build → Validate → Document**
