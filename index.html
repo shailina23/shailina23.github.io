@@ -13,8 +13,8 @@
     section{padding:42px 0;border-top:1px solid var(--rule)}h2{font-size:23px;line-height:1.3;letter-spacing:-.02em;margin:0 0 18px}.section-note{color:var(--muted);margin:-6px 0 25px}.featured{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}.label{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:650}.featured h3,.project h3{font-size:20px;line-height:1.35;margin:7px 0 12px}.featured p,.project p{margin:0 0 12px;color:#454b46}.repo-link{font-weight:600;font-size:14px}.codebox{margin:0;background:var(--code);border:1px solid var(--rule);padding:18px;overflow:auto;color:#333a35;font:13px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace}.code-title{font:12px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);margin-bottom:12px}.small-note{font-size:13px!important;color:var(--muted)!important;margin-top:12px!important}
     .projects{border-top:1px solid var(--rule)}.project{display:grid;grid-template-columns:210px 1fr;gap:24px;padding:20px 0;border-bottom:1px solid var(--rule)}.project h3{margin:0 0 6px}.project .label{margin-top:3px}.project p{margin:0 0 8px}.project .repo-link{font-size:14px}
     .skills{display:grid;grid-template-columns:180px 1fr;gap:24px}.skills p{margin:0;color:#454b46}.skills .learning{border-left:2px solid var(--rule);padding-left:16px;margin-top:16px;color:var(--muted);font-size:14px}
-    .contact{max-width:680px}.contact p{margin:0 0 18px;color:#454b46}.contact a{font-weight:600}footer{border-top:1px solid var(--rule);padding:22px 0 30px;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px}.footlinks{display:flex;gap:18px}
-    @media(max-width:650px){.wrap{width:calc(100% - 32px)}.top{align-items:flex-start;padding:16px 0}.nav{gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:13px}.intro{padding:55px 0 44px}.featured{grid-template-columns:1fr;gap:20px}.project,.skills{grid-template-columns:1fr;gap:8px}.project{padding:17px 0}.foot{display:block}.footlinks{margin-top:8px}}
+    .ai-focus{padding:24px 26px;background:#eef2ed;border-left:3px solid var(--accent);display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:start}.ai-focus h2{margin:0}.ai-focus p{margin:0 0 10px;color:#454b46}.ai-focus .linkline{margin-top:12px;font-size:14px;font-weight:600}.contact{max-width:680px}.contact p{margin:0 0 18px;color:#454b46}.contact a{font-weight:600}footer{border-top:1px solid var(--rule);padding:22px 0 30px;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px}.footlinks{display:flex;gap:18px}
+    @media(max-width:650px){.wrap{width:calc(100% - 32px)}.top{align-items:flex-start;padding:16px 0}.nav{gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:13px}.intro{padding:55px 0 44px}.featured{grid-template-columns:1fr;gap:20px}.project,.skills,.ai-focus{grid-template-columns:1fr;gap:8px}.project{padding:17px 0}.foot{display:block}.footlinks{margin-top:8px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
 </head>
@@ -22,12 +22,14 @@
   <header><div class="wrap top"><a class="name" href="#top">Shailina Jain</a><nav class="nav" aria-label="Main navigation"><a href="#work">Projects</a><a href="#services">What I work on</a><a href="#contact">Contact</a><a href="https://github.com/shailina23" target="_blank" rel="noopener noreferrer">GitHub</a></nav></div></header>
   <main id="top">
     <div class="wrap intro">
-      <p class="availability"><span>Open to freelance work</span> · Data engineering</p>
-      <h1>I’m a data engineer who works across SQL, pipelines, and reporting.</h1>
-      <p>I’m Shailina. I have six years of data engineering experience, working with SQL, Snowflake, Python ETL, and Power BI. I’m currently building public portfolio projects around migration, policy data, analytics, and RAG.</p>
+      <p class="availability"><span>Open to freelance work</span> · Data engineering and business AI prototypes</p>
+      <h1>Data engineering, with a growing focus on AI agents for business.</h1>
+      <p>I’m Shailina. I have six years of data engineering experience across SQL, Snowflake, Python ETL, and Power BI. I’m now building toward practical AI agents: small prototypes that work with business documents or repeatable tasks, with clear limits and human review.</p>
       <p>Those repositories use synthetic data. They are examples of my work, not client projects.</p>
       <div class="links"><a href="https://www.linkedin.com/in/shailina-jain/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a><a href="https://github.com/shailina23" target="_blank" rel="noopener noreferrer">See my GitHub</a></div>
     </div>
+
+    <section><div class="wrap"><div class="ai-focus"><h2>Where I can help with business AI</h2><div><p>Start with one narrow job: for example, finding answers in internal policy documents or preparing a draft for a staff member to review. I can help shape the use case and prototype, then check whether the answers are grounded in the source material before anyone considers a wider rollout.</p><p>My current example is an insurance-policy RAG assistant using fictional documents. It is a learning project, not a deployed client agent.</p><p class="linkline"><a href="https://github.com/shailina23/insurance-policy-rag-assistant" target="_blank" rel="noopener noreferrer">See the AI prototype on GitHub →</a></p></div></div></div></section>
 
     <section id="work"><div class="wrap">
       <h2>One project, in detail</h2>
