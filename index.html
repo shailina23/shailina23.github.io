@@ -3,71 +3,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Shailina Jain is a data engineer with six years of experience in SQL migration, Python ETL and analytics modeling. See portfolio projects built with synthetic data.">
-  <meta name="theme-color" content="#f4f1e8">
-  <title>Shailina Jain — Data Engineering</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <meta name="description" content="Shailina Jain is a data engineer with six years of experience in SQL, Snowflake, Python ETL and Power BI. Explore her portfolio projects.">
+  <title>Shailina Jain | Data Engineer</title>
   <style>
-    :root{--paper:#f4f1e8;--ink:#202923;--rust:#b65339;--line:rgba(32,41,35,.2);--soft:rgba(32,41,35,.68);--serif:"Fraunces",Georgia,serif;--sans:"DM Sans",Arial,sans-serif}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 var(--sans)}a{color:inherit;text-decoration-thickness:1px;text-underline-offset:4px}a:hover{color:var(--rust)}a:focus-visible{outline:2px solid var(--rust);outline-offset:4px}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}
-    header{border-bottom:1px solid var(--line)}.nav{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{text-decoration:none;font-weight:700;letter-spacing:-.04em}.brand span{color:var(--rust)}.navlinks{display:flex;gap:28px;font-size:14px}.navlinks a{text-decoration:none}
-    .hero{padding:112px 0 100px;display:grid;grid-template-columns:minmax(0,1.6fr) minmax(220px,.6fr);gap:10%;align-items:end}.eyebrow,.section-index,.project-type,.detail-label{font-size:12px;font-weight:700;letter-spacing:.11em;text-transform:uppercase}.eyebrow,.section-index,.project-type{color:var(--rust)}h1,h2,h3,p{margin-top:0}h1{font:600 clamp(48px,7vw,84px)/.99 var(--serif);letter-spacing:-.055em;max-width:800px;margin:20px 0 26px}h1 em{color:var(--rust);font-style:normal}.intro{font-size:19px;line-height:1.58;max-width:650px;margin-bottom:28px}.hero-note{border-left:1px solid var(--rust);padding:4px 0 4px 20px;color:var(--soft);font-size:14px}.hero-note strong{display:block;color:var(--ink);font:500 28px/1.2 var(--serif);margin-bottom:8px}.text-link{display:inline-flex;gap:10px;align-items:center;font-weight:700;color:var(--rust)}
-    section{padding:76px 0;border-top:1px solid var(--line)}.section-head{display:grid;grid-template-columns:.7fr 1.3fr;gap:10%;margin-bottom:44px}.section-index{padding-top:12px}.section-head h2,.contact h2{font:500 clamp(34px,4vw,52px)/1.08 var(--serif);letter-spacing:-.04em;margin:0 0 14px}.section-head p{max-width:600px;color:var(--soft);margin:0}
-    .service-list{border-top:1px solid var(--line)}.service{display:grid;grid-template-columns:64px minmax(200px,.8fr) 1.2fr;gap:26px;padding:24px 0;border-bottom:1px solid var(--line);align-items:start}.service-num{font-size:12px;color:var(--rust);font-weight:700;padding-top:4px}.service h3{font-size:18px;margin:0}.service p{color:var(--soft);margin:0;max-width:580px}
-    .project-list{border-top:1px solid var(--line)}.project{display:grid;grid-template-columns:64px minmax(220px,.85fr) 1.15fr;gap:26px;padding:30px 0;border-bottom:1px solid var(--line)}.project-num{font:500 25px/1 var(--serif);color:var(--rust);padding-top:4px}.project h3{font:500 26px/1.15 var(--serif);letter-spacing:-.025em;margin:8px 0}.project-type{font-size:10px}.project-copy p{color:var(--soft);margin:0 0 12px}.project-copy .scope{font-size:13px;border-left:2px solid var(--line);padding-left:12px}.project-link{font-weight:700;color:var(--rust);font-size:14px}.learning{margin-top:42px;padding:22px 26px;border:1px solid var(--rust);display:grid;grid-template-columns:.55fr 1.45fr;gap:24px;align-items:start}.learning .project-type{margin-top:5px}.learning p{margin:0;color:var(--soft)}
-    .contact{padding:86px 0 96px;display:grid;grid-template-columns:.7fr 1.3fr;gap:10%;align-items:start}.contact p{color:var(--soft);max-width:550px}.contact .text-link{margin-top:8px}footer{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--soft);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px}.footlinks{display:flex;gap:20px}
-    @media(max-width:720px){.wrap{width:min(100% - 36px,560px)}.nav{align-items:flex-start;padding:18px 0}.navlinks{gap:14px;flex-wrap:wrap;justify-content:flex-end;font-size:13px}.hero{padding:76px 0 68px;grid-template-columns:1fr;gap:30px}.hero-note{max-width:420px}.section-head,.contact{grid-template-columns:1fr;gap:12px}.section-head{margin-bottom:28px}.service{grid-template-columns:34px 1fr;gap:12px 18px}.service p{grid-column:2}.project{grid-template-columns:36px 1fr;gap:10px 18px;padding:25px 0}.project-copy{grid-column:2}.learning{grid-template-columns:1fr;gap:10px}.foot{display:block}.footlinks{margin-top:10px}}
+    :root{--paper:#fbfaf7;--ink:#292d2a;--muted:#626862;--rule:#d9d9d2;--accent:#235746;--code:#f0f0eb}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--accent);text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.wrap{max-width:1040px;width:calc(100% - 44px);margin:0 auto}
+    header{border-bottom:1px solid var(--rule)}.top{min-height:66px;display:flex;justify-content:space-between;align-items:center;gap:20px}.name{font-weight:650;text-decoration:none;color:var(--ink)}.nav{display:flex;gap:22px;font-size:14px}.nav a{text-decoration:none;color:var(--muted)}
+    .intro{padding:74px 0 62px;max-width:770px}.availability{font-size:14px;color:var(--muted);margin:0 0 18px}.availability span{color:var(--accent);font-weight:650}.intro h1{font-size:clamp(35px,5vw,54px);line-height:1.12;letter-spacing:-.04em;font-weight:650;margin:0 0 20px}.intro p{font-size:18px;line-height:1.65;color:#454b46;margin:0 0 18px}.intro .links{display:flex;gap:18px;font-size:15px;font-weight:600;margin-top:24px}
+    section{padding:42px 0;border-top:1px solid var(--rule)}h2{font-size:23px;line-height:1.3;letter-spacing:-.02em;margin:0 0 18px}.section-note{color:var(--muted);margin:-6px 0 25px}.featured{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}.label{font-size:12px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:650}.featured h3,.project h3{font-size:20px;line-height:1.35;margin:7px 0 12px}.featured p,.project p{margin:0 0 12px;color:#454b46}.repo-link{font-weight:600;font-size:14px}.codebox{margin:0;background:var(--code);border:1px solid var(--rule);padding:18px;overflow:auto;color:#333a35;font:13px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace}.code-title{font:12px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--muted);margin-bottom:12px}.small-note{font-size:13px!important;color:var(--muted)!important;margin-top:12px!important}
+    .projects{border-top:1px solid var(--rule)}.project{display:grid;grid-template-columns:210px 1fr;gap:24px;padding:20px 0;border-bottom:1px solid var(--rule)}.project h3{margin:0 0 6px}.project .label{margin-top:3px}.project p{margin:0 0 8px}.project .repo-link{font-size:14px}
+    .skills{display:grid;grid-template-columns:180px 1fr;gap:24px}.skills p{margin:0;color:#454b46}.skills .learning{border-left:2px solid var(--rule);padding-left:16px;margin-top:16px;color:var(--muted);font-size:14px}
+    .contact{max-width:680px}.contact p{margin:0 0 18px;color:#454b46}.contact a{font-weight:600}footer{border-top:1px solid var(--rule);padding:22px 0 30px;color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:20px}.footlinks{display:flex;gap:18px}
+    @media(max-width:650px){.wrap{width:calc(100% - 32px)}.top{align-items:flex-start;padding:16px 0}.nav{gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:13px}.intro{padding:55px 0 44px}.featured{grid-template-columns:1fr;gap:20px}.project,.skills{grid-template-columns:1fr;gap:8px}.project{padding:17px 0}.foot{display:block}.footlinks{margin-top:8px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
 </head>
 <body>
-  <header>
-    <div class="wrap nav">
-      <a class="brand" href="#top">Shailina Jain<span> /</span></a>
-      <nav class="navlinks" aria-label="Main navigation"><a href="#work">Projects</a><a href="#services">What I do</a><a href="#contact">Contact</a><a href="https://github.com/shailina23" target="_blank" rel="noopener noreferrer">GitHub</a></nav>
-    </div>
-  </header>
+  <header><div class="wrap top"><a class="name" href="#top">Shailina Jain</a><nav class="nav" aria-label="Main navigation"><a href="#work">Projects</a><a href="#services">What I work on</a><a href="#contact">Contact</a><a href="https://github.com/shailina23" target="_blank" rel="noopener noreferrer">GitHub</a></nav></div></header>
   <main id="top">
-    <div class="wrap hero">
-      <div>
-        <div class="eyebrow">Data engineering · Available for scoped freelance work</div>
-        <h1>SQL migrations, data pipelines, <em>and reporting models.</em></h1>
-        <p class="intro">I’m Shailina, a data engineer with six years of experience. I work across SQL modernization, Python ETL, Snowflake, and Power BI. The projects here use synthetic data and show my approach; they are not client deployments.</p>
-        <a class="text-link" href="https://www.linkedin.com/in/shailina-jain/" target="_blank" rel="noopener noreferrer">Discuss a project on LinkedIn <span aria-hidden="true">↗</span></a>
-      </div>
-      <aside class="hero-note"><strong>From source to report</strong>SQL mapping and reconciliation, Python transformations, and analytics models built around the question a team needs to answer.</aside>
+    <div class="wrap intro">
+      <p class="availability"><span>Open to freelance work</span> · Data engineering</p>
+      <h1>I’m a data engineer who works across SQL, pipelines, and reporting.</h1>
+      <p>I’m Shailina. I have six years of data engineering experience, working with SQL, Snowflake, Python ETL, and Power BI. I’m currently building public portfolio projects around migration, policy data, analytics, and RAG.</p>
+      <p>Those repositories use synthetic data. They are examples of my work, not client projects.</p>
+      <div class="links"><a href="https://www.linkedin.com/in/shailina-jain/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a><a href="https://github.com/shailina23" target="_blank" rel="noopener noreferrer">See my GitHub</a></div>
     </div>
 
-    <section id="services">
-      <div class="wrap">
-        <div class="section-head"><div class="section-index">01 / What I do</div><div><h2>Defined data work, with the edges made clear.</h2><p>For a first engagement, share the current source, target platform, and the result you need. We can agree on a small milestone and its acceptance checks before work starts.</p></div></div>
-        <div class="service-list">
-          <article class="service"><div class="service-num">01</div><h3>SQL to Snowflake</h3><p>Translate legacy SQL, shape target tables and views, and document how the output will be reconciled.</p></article>
-          <article class="service"><div class="service-num">02</div><h3>Python ETL</h3><p>Ingest and transform data into documented outputs, with checks that make assumptions visible.</p></article>
-          <article class="service"><div class="service-num">03</div><h3>Analytics models</h3><p>Prepare reporting tables and Power BI measures around the business definitions the team uses.</p></article>
-        </div>
-        <div class="learning"><div class="project-type">Learning in public</div><p>I’m building a synthetic insurance-policy RAG assistant to learn document retrieval, citations, and evaluation. It is a prototype in progress, not a production AI-agent service.</p></div>
-      </div>
-    </section>
+    <section id="work"><div class="wrap">
+      <h2>One project, in detail</h2>
+      <article class="featured">
+        <div><div class="label">Healthcare data · Portfolio project</div><h3>Moving a monthly revenue query toward Snowflake</h3><p>This repository starts with an imaginary healthcare team whose monthly revenue logic lives in a legacy query. I documented a path from legacy SQL to RAW tables, a curated view, and a BI-ready dataset.</p><p>The reconciliation script reads <code>data/visits_legacy.csv</code>, keeps completed visits, groups them by month and department, then compares row counts and revenue totals.</p><p class="small-note">The source and target totals are calculated from the same CSV. This catches aggregation mistakes in the demo; it does not validate a live Snowflake migration.</p><a class="repo-link" href="https://github.com/shailina23/healthcare-sql-to-snowflake-migration" target="_blank" rel="noopener noreferrer">See the repository →</a></div>
+        <div><div class="code-title">scripts/run_reconciliation.py</div><pre class="codebox"><code>completed = visits[visits["status"].eq("Completed")]
+source_rows = len(completed)
+source_revenue = round(completed["billed_amount"].sum(), 2)
 
-    <section id="work">
-      <div class="wrap">
-        <div class="section-head"><div class="section-index">02 / Project work</div><div><h2>Four small labs, with their limits stated.</h2><p>Each repository includes the data and code for a specific engineering question. Read the notes before treating a demo check or metric as a production control.</p></div></div>
-        <div class="project-list">
-          <article class="project"><div class="project-num">01</div><div><div class="project-type">Healthcare · Synthetic data</div><h3>SQL to Snowflake migration</h3></div><div class="project-copy"><p>Legacy-style monthly revenue SQL, proposed Snowflake RAW tables and analytics view, and a local Python aggregation check over synthetic patient and visit data.</p><p class="scope">The control totals come from the same source data. This checks aggregation consistency, not a live Snowflake result.</p><a class="project-link" href="https://github.com/shailina23/healthcare-sql-to-snowflake-migration" target="_blank" rel="noopener noreferrer">Open repository ↗</a></div></article>
-          <article class="project"><div class="project-num">02</div><div><div class="project-type">Insurance · Synthetic data</div><h3>Policy and claims ETL</h3></div><div class="project-copy"><p>A Python and pandas pipeline turns customer, policy, and claims extracts into a policy-level fact table and product/state KPI summary.</p><p class="scope">The loss-ratio proxy uses paid claims only; it is not an actuarial measure. Input-contract checks remain in progress.</p><a class="project-link" href="https://github.com/shailina23/insurance-policy-etl" target="_blank" rel="noopener noreferrer">Open repository ↗</a></div></article>
-          <article class="project"><div class="project-num">03</div><div><div class="project-type">Real estate · Synthetic data</div><h3>Property portfolio analytics</h3></div><div class="project-copy"><p>Property and monthly performance data modeled for occupancy, rent, and collections, with SQL, DAX measures, quality checks, and a dashboard specification.</p><p class="scope">The repository does not yet include a Power BI report file.</p><a class="project-link" href="https://github.com/shailina23/real-estate-powerbi-analytics" target="_blank" rel="noopener noreferrer">Open repository ↗</a></div></article>
-          <article class="project"><div class="project-num">04</div><div><div class="project-type">Insurance documents · In progress</div><h3>Policy RAG assistant</h3></div><div class="project-copy"><p>A learning prototype chunks fictional policy documents, retrieves passages, and drafts answers with source references.</p><p class="scope">Published so far: starter CLI, synthetic corpus, retrieval code, and evaluation questions. Results and a user interface are still future work.</p><a class="project-link" href="https://github.com/shailina23/insurance-policy-rag-assistant" target="_blank" rel="noopener noreferrer">Open repository ↗</a></div></article>
-        </div>
-      </div>
-    </section>
+assert source_rows == target_rows
+assert source_revenue == target_revenue</code></pre></div>
+      </article>
+    </div></section>
 
-    <section class="contact" id="contact">
-      <div class="wrap" style="display:contents"><div class="section-index">03 / Contact</div><div><h2>Bring me the source, target, and question.</h2><p>Tell me what data you have, where it needs to go, and what is difficult to trust or report today. I’ll reply through LinkedIn.</p><a class="text-link" href="https://www.linkedin.com/in/shailina-jain/" target="_blank" rel="noopener noreferrer">Message Shailina on LinkedIn <span aria-hidden="true">↗</span></a></div></div>
-    </section>
+    <section><div class="wrap"><h2>Other projects</h2><div class="projects">
+      <article class="project"><div><div class="label">Insurance · Synthetic data</div></div><div><h3>Policy and claims ETL</h3><p>Python and pandas combine customer, policy, and claims extracts into a policy-level fact table and a product/state KPI summary. The loss-ratio proxy uses paid claims only; it is not an actuarial measure.</p><a class="repo-link" href="https://github.com/shailina23/insurance-policy-etl" target="_blank" rel="noopener noreferrer">Repository →</a></div></article>
+      <article class="project"><div><div class="label">Real estate · Synthetic data</div></div><div><h3>Property portfolio analytics</h3><p>SQL, DAX measures, and data quality checks for occupancy, rent, and collections. The repository has a dashboard specification, but no Power BI report file yet.</p><a class="repo-link" href="https://github.com/shailina23/real-estate-powerbi-analytics" target="_blank" rel="noopener noreferrer">Repository →</a></div></article>
+      <article class="project"><div><div class="label">Insurance documents · In progress</div></div><div><h3>Policy RAG assistant</h3><p>A learning project using fictional policy documents. The repository has a starter CLI, synthetic corpus, retrieval code, and evaluation questions. Evaluation results and a user interface are still to come.</p><a class="repo-link" href="https://github.com/shailina23/insurance-policy-rag-assistant" target="_blank" rel="noopener noreferrer">Repository →</a></div></article>
+    </div></div></section>
+
+    <section id="services"><div class="wrap skills"><h2>What I work on</h2><div><p>SQL migration and Snowflake modeling; Python ETL; analytics-ready data and Power BI measures. For freelance work, I’m most interested in a clearly scoped task with an agreed source, target, and definition of done.</p><p class="learning">I’m learning RAG and agent workflows through the policy assistant above. I’m not presenting that prototype as a production AI service.</p></div></div></section>
+
+    <section id="contact"><div class="wrap contact"><h2>Have a data task in mind?</h2><p>If you need help with a SQL migration, an ETL workflow, or a reporting model, send me a short note about the current setup and what you need it to do.</p><a href="https://www.linkedin.com/in/shailina-jain/" target="_blank" rel="noopener noreferrer">Message me on LinkedIn →</a></div></section>
   </main>
-  <footer><div class="wrap foot"><span>Shailina Jain · Data Engineering</span><div class="footlinks"><a href="https://www.linkedin.com/in/shailina-jain/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/shailina23" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></footer>
+  <footer><div class="wrap foot"><span>Shailina Jain · Data Engineer</span><div class="footlinks"><a href="https://www.linkedin.com/in/shailina-jain/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="https://github.com/shailina23" target="_blank" rel="noopener noreferrer">GitHub</a></div></div></footer>
 </body>
 </html>
